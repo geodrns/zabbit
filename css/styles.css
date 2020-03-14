@@ -1,0 +1,29 @@
+body
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-color:rgb(255, 255, 255);
+    text-align: center;  
+
+}
+
+img{
+    width: 100%;
+}
+
+h1{
+  padding: 20px;
+  background-color: rgb(255, 102, 0);
+  color: white;
+  box-shadow: 10px 10px 5px grey;
+}
+.navbar-default{
+  position: fixed;
+  color: black;
+  transition:500ms ease;
+  background:white;
+}
+.navbar-default.scrolled{
+  position: fixed;
+  background:#000;
+}
