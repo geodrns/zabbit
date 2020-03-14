@@ -19,7 +19,7 @@ h1{
 }
 /* ===== NAVIGATION ======*/
 .navbar {
-    border: 0;
+    border:orangered;
     z-index: 9999;
     letter-spacing: 4px;
     background-color: white;
@@ -30,25 +30,11 @@ h1{
   padding: 0px; /* firefox bug fix */
   width: 20%;
 }
-.navbar .nav > li > a {
-  line-height: 50px;
-}
 
-.navbar-header h1 {
-    letter-spacing: 1px;
-    color: black !important;
-    font-family: Arial, Helvetica, sans-serif
-}
 
 .navbar li a, .navbar {
     color: black !important;
-    font-size: 12px;
-    transition: all 0.6s 0s;
-}
-
-.navbar-toggle {
-    background-color: transparent !important;
-    border: 0;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
