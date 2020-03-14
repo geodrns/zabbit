@@ -17,13 +17,40 @@ h1{
   color: white;
   box-shadow: 10px 10px 5px grey;
 }
-.navbar-default{
-  position: fixed;
-  color: black;
-  transition:500ms ease;
-  background:white;
+/* ===== NAVIGATION ======*/
+.navbar {
+    border: 0;
+    z-index: 9999;
+    letter-spacing: 4px;
+    background-color: white;
+
 }
-.navbar-default.scrolled{
-  position: fixed;
-  background:#000;
+
+.navbar-brand>img {
+  padding: 0px; /* firefox bug fix */
+  width: 20%;
+}
+.navbar .nav > li > a {
+  line-height: 50px;
+}
+
+.navbar-header h1 {
+    letter-spacing: 1px;
+    color: black !important;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.navbar li a, .navbar {
+    color: black !important;
+    font-size: 12px;
+    transition: all 0.6s 0s;
+}
+
+.navbar-toggle {
+    background-color: transparent !important;
+    border: 0;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: rgb(255, 72, 0) !important;
 }
