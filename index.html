@@ -19,33 +19,25 @@
 <body>
 <header>
   <!--Navbar-->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark primary-color">
-    <a class="navbar-brand" href="index.html">
-      <img src="img/logoprincipal.png" weight="30%" alt="logo">
-    </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light primary-color">
+    <a class="navbar-brand" href="index.html"><img src="img/logoprincipal.png" ></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+      <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.html">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#funciona">¿Cómo funciona?</a>
+          <a class="nav-link" href="index.html#funciona">¿Cómo funciona?</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="FAQ.html">FAQ</a>
         </li>
       </ul>
-    </div>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <a>
-          <img src="img/logoqwerty.png" class="qwertyimg">
-        </a>
-      </ul>
+      <img class="qwertylogo" src="img/logoqwerty.png" style="float: left; padding-right: 10px;">
+      <img class="qwertyimg" src="img/qwertylogo2.png">
     </div>
   </nav>
   <!--Fin Navbar-->
@@ -70,7 +62,7 @@
   </div>
 <br>
 <br>
-<hr style="color: orangered;">
+<hr>
 <br>
 <br>
 <!--div>-->
@@ -86,21 +78,17 @@
   </div>
 </div>
 <br>
-<br>
-<br>
+<hr id="funciona">
 <!--Como funciona-->
-<div style="position: center;">
-  <div id="funciona" class="col-1 col-lg-4">
-    <h1 class="h1shadow">¿Cómo funciona?</h1>
-  </div>
-</div>
-<br>
+<section>
+  <h1 class="h1shadow">¿Cómo funciona?</h1>
+</section>
 <div class="row align-items-center">
   <div class="col-12 col-md-6">
     <img src="img/comofunciona.jpg" class="imgfunciona">
   </div>
   <div class="col-12 col-md-6">
-    <img src="img/movil2.jpg">
+    <img src="img/movil2.jpg" >
     <a class="button2 bouncy" href="app.html">Ver proceso >></a>
   </div>
 </div>

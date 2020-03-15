@@ -42,38 +42,33 @@
 <body>
   <header>
     <!--Navbar-->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark primary-color">
-      <a class="navbar-brand" href="index.html">
-        <img src="img/logoprincipal.png" weight="30%" alt="logo">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light primary-color">
+      <a class="navbar-brand" href="index.html"><img src="img/logoprincipal.png" ></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#funciona">¿Cómo funciona?</a>
+          </li>
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#funciona">¿Cómo funciona?</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link" href="FAQ.html">FAQ</a>
           </li>
         </ul>
-      </div>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <a>
-            <img src="img/logoqwerty.png" class="qwertyimg">
-          </a>
-        </ul>
+        <img class="qwertylogo" src="img/logoqwerty.png" style="float: left; padding-right: 10px;">
+        <img class="qwertyimg" src="img/qwertylogo2.png">
       </div>
     </nav>
     <!--Fin Navbar-->
   </header>
   <section>
+    <h1 class="h1normal">Preguntas más frecuentes</h1>
+    <br>
+    <br>
     <input class="animate" type="radio" name="question" id="q1"/>
     <label class="animate" for="q1">Q: ¿Qué métodos de pago usa Zabbit?</label>
     <p class="response animate">A: Con Zabbit puedes usar cualquier tipo de tarjeta (prepago, débito, crédito…), paypal, entre otros. Esto se debe a que queremos que Zabbit pueda ser usado por todo el mundo.
@@ -92,3 +87,4 @@
     <p class="response animate">A: Inicialmente no es una opción con la que cuente Zabbit. No obstante, en un futuro se podría incorporar un sistema para poder dejar la cantidad que se desee de propina. Sin embargo, siempre puedes dejar la propina en efectivo ya que con la propina no surgen los problemas que soluciona Zabbit.</p>
     </section>
 </body>
+</html>
