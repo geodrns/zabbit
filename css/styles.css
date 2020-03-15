@@ -8,10 +8,13 @@ body
 }
 
 img{
-    width: 30%;
+    width: 40%;
 }
 .imgsup{
   width: 100%;
+}
+.imgfunciona{
+  width: 70%;
 }
 .h1normal{
   padding:2%;
@@ -44,32 +47,32 @@ img{
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: rgb(255, 72, 0) !important;
+    color: rgb(255, 102, 0) !important;
 }
 
 /*boton link*/
 a.button2{
   display:inline-block;
   padding:0.5em 3em;
-  border:0.16em solid rgb(228, 115, 10);
+  border:0.16em solid rgb(255, 102, 0);
   margin:0 0.3em 0.3em 0;
   box-sizing: border-box;
   text-decoration:none;
   text-transform:uppercase;
   font-family:'Roboto',sans-serif;
   font-weight:400;
-  color:rgb(255, 136, 0);
+  color:rgb(255, 102, 0);
   font-weight: bold;
   text-align:center;
   transition: all 0.15s;
   }
   a.button2:hover{
-  color:#DDDDDD;
-  border-color:#DDDDDD;
+  color:rgb(255, 142, 67);
+  border-color:rgb(255, 142, 67);
   }
   a.button2:active{
-  color:#BBBBBB;
-  border-color:#BBBBBB;
+  color:rgb(255, 142, 67);
+  border-color:rgb(255, 142, 67);
   }
   @media all and (max-width:30em){
    a.button2{
