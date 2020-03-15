@@ -1,6 +1,6 @@
 body
 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: black;
     background-color:rgb(255, 255, 255);
     text-align: center;  
@@ -8,21 +8,27 @@ body
 }
 
 img{
-    width: 100%;
+    width: 30%;
 }
-
-h1{
-  padding: 20px;
+.imgsup{
+  width: 100%;
+}
+.h1normal{
+  padding:2%;
+  background-color: rgb(255, 102, 0);
+  color: white;
+}
+.h1shadow{
+  padding: 2%;
   background-color: rgb(255, 102, 0);
   color: white;
   box-shadow: 10px 10px 5px grey;
 }
 /* ===== NAVIGATION ======*/
 .navbar {
-    border:orangered;
     z-index: 9999;
     letter-spacing: 4px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 
 }
 
@@ -40,3 +46,47 @@ h1{
 .navbar-nav li a:hover, .navbar-nav li.active a {
     color: rgb(255, 72, 0) !important;
 }
+
+/*boton link*/
+a.button2{
+  display:inline-block;
+  padding:0.5em 3em;
+  border:0.16em solid rgb(228, 115, 10);
+  margin:0 0.3em 0.3em 0;
+  box-sizing: border-box;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-family:'Roboto',sans-serif;
+  font-weight:400;
+  color:rgb(255, 136, 0);
+  font-weight: bold;
+  text-align:center;
+  transition: all 0.15s;
+  }
+  a.button2:hover{
+  color:#DDDDDD;
+  border-color:#DDDDDD;
+  }
+  a.button2:active{
+  color:#BBBBBB;
+  border-color:#BBBBBB;
+  }
+  @media all and (max-width:30em){
+   a.button2{
+  display:block;
+  margin:0.4em auto;}
+  }
+
+  .bouncy{
+    animation:bouncy 5s infinite linear;
+    position:relative;
+    }
+    @keyframes bouncy {
+      0%{top:0em}
+      40%{top:0em}
+      43%{top:-0.9em}
+      46%{top:0em}
+      48%{top:-0.4em}
+      50%{top:0em}
+      100%{top:0em;}
+    }
